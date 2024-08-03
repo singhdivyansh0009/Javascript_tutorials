@@ -6,14 +6,15 @@ console.log(typeof person); //it return function
 let p1 = new person("ram",10); // creating an instance using constructor function
 console.log(typeof p1); //it return object
 
-// if I want to add new property in p1 I can do it easily
+// if you want to add new property in p1 you can do it easily
 p1.gender = "male";
 console.log(p1); // output : person { name: 'ram', age: 10, gender: 'male' }
 
 //but it cannot made changes in person function 
 console.log(new person("raju",20));
 
-person.gender = "Male";
+person.gender = "Male";  //it will add the gender property in person but cannot accessible by new object
+                         // created through the person function
 console.log(person.gender); //output: Male
 console.log(person); //output: [Function: person] { gender: 'Male' }
 let p3 = new person("ram",90);
