@@ -5,6 +5,12 @@ str = 'hello world'; // In single quotes
 str = `hello` // In back tick also called string templates
 console.log(str);
 
+/* Another way of declaration of string */
+const s3 = new String("Hello");
+console.log(typeof s3); // it return object
+console.log(s3); // it will give string object 
+                 // {0:"H", 1 : "e", 2 : "l", 3 : "l", 4: "o", Prototype object that contains string methods}
+
 /*Note : Strings in javascript are immutable */
 str[0] = 'H';  // it cannot change the value of original string
 console.log(str);
@@ -26,8 +32,3 @@ let num = 10;
 let ans = `The square of ${num} is ${num*num}`;
 console.log(ans);
 
-/* Another way of declaration of string */
-const s3 = new String("Hello");
-console.log(typeof s3); // it return object
-console.log(s3); // it will give string object 
-                 // {0:"H", 1 : "e", 2 : "l", 3 : "l", 4: "o", Prototype object that contains string methods}
