@@ -1,0 +1,113 @@
+[
+    {
+      "name": "John Doe",
+      "age": 30,
+      "isStudent": false,
+      "email": "john.doe@example.com",
+      "courses": ["Math", "Physics"],
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "postalCode": "10001"
+      },
+      "phoneNumbers": [
+        {
+          "type": "home",
+          "number": "212-555-1234"
+        },
+        {
+          "type": "mobile",
+          "number": "917-555-9876"
+        }
+      ]
+    },
+    {
+      "name": "Jane Smith",
+      "age": 25,
+      "isStudent": true,
+      "email": "jane.smith@example.com",
+      "courses": ["Biology", "Chemistry"],
+      "address": {
+        "street": "456 Maple Ave",
+        "city": "Los Angeles",
+        "postalCode": "90001"
+      },
+      "phoneNumbers": [
+        {
+          "type": "home",
+          "number": "310-555-4321"
+        },
+        {
+          "type": "mobile",
+          "number": "310-555-8765"
+        }
+      ]
+    },
+    {
+      "name": "Emily Johnson",
+      "age": 40,
+      "isStudent": false,
+      "email": "emily.johnson@example.com",
+      "courses": ["History", "Literature"],
+      "address": {
+        "street": "789 Oak St",
+        "city": "Chicago",
+        "postalCode": "60601"
+      },
+      "phoneNumbers": [
+        {
+          "type": "home",
+          "number": "312-555-5678"
+        },
+        {
+          "type": "mobile",
+          "number": "773-555-1234"
+        }
+      ]
+    },
+    {
+      "name": "Michael Brown",
+      "age": 35,
+      "isStudent": false,
+      "email": "michael.brown@example.com",
+      "courses": ["Computer Science", "Data Analytics"],
+      "address": {
+        "street": "321 Elm St",
+        "city": "Houston",
+        "postalCode": "77001"
+      },
+      "phoneNumbers": [
+        {
+          "type": "home",
+          "number": "713-555-7890"
+        },
+        {
+          "type": "mobile",
+          "number": "832-555-5678"
+        }
+      ]
+    },
+    {
+      "name": "Sarah Davis",
+      "age": 28,
+      "isStudent": true,
+      "email": "sarah.davis@example.com",
+      "courses": ["Art", "Design"],
+      "address": {
+        "street": "654 Pine St",
+        "city": "San Francisco",
+        "postalCode": "94101"
+      },
+      "phoneNumbers": [
+        {
+          "type": "home",
+          "number": "415-555-2345"
+        },
+        {
+          "type": "mobile",
+          "number": "415-555-6789"
+        }
+      ]
+    }
+  ]
+  
