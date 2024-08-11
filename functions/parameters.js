@@ -64,3 +64,26 @@ function all() {
   }
 }
 all(1, 123, 500, 115, 44, 88);
+
+/* implicit return and explicit return in arrow function */
+/* 
+    -> both below are the example of implicit return in which the value are automatically return 
+       without using return key word
+    -> There are mostly used when we have single line definition of the function
+*/
+const fun = (num) => num*10;
+const fun1 = (num) => (num*10); // these are used mostly for returning the object which is present in curly braces
+// const fun2 = () => {Name:'Ram',Age:20};  //we cannot return the object like this
+const fun2 = () => ({Name:'Ram',Age:20}); // it is the right syntax
+console.log(fun2());
+
+/* Example of explicit return */
+/* it will not return any value implicitly because written in { } braces */
+const fun3 = (num) =>{
+     num*10;
+}
+// we have to return the value using return keyword
+const fun4 = (num) =>{
+     return num*10;
+}
+console.log(fun4(10));
