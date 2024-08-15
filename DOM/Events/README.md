@@ -19,7 +19,7 @@ Answer: The addEventListener method is used to attach an event handler to an ele
 Answer: You can remove an event listener using the removeEventListener method. This method requires the same arguments used in addEventListener, including the event type, the event handler function, and the optional capture flag.
 ## 9. What are custom events in JavaScript, and how do you create and dispatch them?
 Answer: Custom events allow you to create and trigger your own events. You can create a custom event using the CustomEvent constructor and dispatch it using the dispatchEvent method.
-# Example :
+### Example :
 const myEvent = new CustomEvent('myCustomEvent', { detail: { key: 'value' } });
 element.dispatchEvent(myEvent);
 ## 10. What is the purpose of the event.target and event.currentTarget properties?
