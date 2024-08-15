@@ -1,7 +1,7 @@
 /*
   -> filter is the array method that used to return an array that passes some tests.
   -> filter does not affects the original array it returns new array
-  -> param : (value,index(optional),array(optional)(for which the filter is called))
+  -> parameters of callback : (value,index(optional),array(optional)(for which the filter is called))
 */
 const nums = [1,2,3,4,5];
 const filteredNum = nums.filter((values) => values%2===0 );

@@ -3,7 +3,7 @@ const arr = [1,2,3,4];
 arr.forEach((values)=>{
     console.log(values);
 })
-// callback inside the forEach  parameters (value,index,array)
+// callback inside the forEach  parameters of callback : (value,index,array)
 arr.forEach((values,index,arr)=>{
      arr[index] = values*10;
 })
